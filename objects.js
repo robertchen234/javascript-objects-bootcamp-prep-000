@@ -1,5 +1,5 @@
 var playlist = {
-  'Bruno Mars': 'Grenade',
+  'Maroon 5': 'Closure',
   'Ed Sheeran': 'Perfect'
 }
  function updatePlaylist(playlist, artistName, songTitle) {
