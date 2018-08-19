@@ -1,4 +1,4 @@
-var playlist = new Object({BrunoMars: 'Grenade'});
+var playlist = new Object({BrunoMars: 'CountOnMe'});
  function updatePlaylist(Liked, EdSheeran, Perfect){
   Liked[EdSheeran] = Perfect;
   return Liked;
