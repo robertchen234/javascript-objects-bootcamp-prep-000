@@ -1,9 +1,9 @@
 var playlist = new Object({BrunoMars: 'Grenade'});
- function updatePlaylist(playlist, artist, song){
-  playlist[artist] = song;
-  return playlist;
+ function updatePlaylist(Liked, EdSheeran, Perfect){
+  Liked[EdSheeran] = Perfect;
+  return Liked;
 }
- function removeFromPlaylist(playlist, artistName){
-  delete playlist[artistName];
-  return playlist
+ function removeFromPlaylist(Liked, EdSheeran){
+  delete Liked[EdSheeran];
+  return Liked
 } 
