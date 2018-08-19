@@ -1,12 +1,9 @@
-var playlist = {
-  'Maroon5': 'Closure',
-  'Ed Sheeran': 'Perfect'
+var playlist = new Object({BrunoMars: 'Grenade'});
+ function updatePlaylist(playlist, artist, song){
+  playlist[artist] = song;
+  return playlist;
 }
- function updatePlaylist(Liked, ) {
-  Liked[BrunoMars] = Grenade
-  return Liked
-}
- function removeFromPlaylist(Liked, ) {
-  delete Liked[Maroon5]
-  return Liked
+ function removeFromPlaylist(playlist, artistName){
+  delete playlist[artistName];
+  return playlist
 } 
