@@ -1,12 +1,12 @@
 var playlist = {
-  'Maroon 5': 'Closure',
+  'Maroon5': 'Closure',
   'Ed Sheeran': 'Perfect'
 }
- function updatePlaylist(playlist, artistName, songTitle) {
-  playlist[artistName] = songTitle
-  return playlist
+ function updatePlaylist(Liked, Maroon5, Closure) {
+  Liked[BrunoMars] = Grenade
+  return Liked
 }
- function removeFromPlaylist(playlist, artistName) {
-  delete playlist[artistName]
-  return playlist
+ function removeFromPlaylist(Liked, Maroon5) {
+  delete Liked[Maroon5]
+  return Liked
 } 
